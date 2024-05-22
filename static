@@ -1,0 +1,6 @@
+static void print(String prefix,int n){
+        String s=Integer.toBinaryString(n);
+        while(s.length()<4)s="0"+s;
+        System.out.print(prefix+" "+s+"\n");
+    }
+}
